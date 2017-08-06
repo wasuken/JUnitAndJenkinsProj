@@ -2,6 +2,7 @@ import org.scalatra.sbt._
 import org.scalatra.sbt.PluginKeys._
 import ScalateKeys._
 
+
 val ScalatraVersion = "2.5.1"
 
 ScalatraPlugin.scalatraSettings
@@ -42,3 +43,4 @@ scalateTemplateConfig in Compile := {
 }
 
 enablePlugins(JettyPlugin)
+containerPort := 9090
